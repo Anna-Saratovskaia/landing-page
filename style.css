@@ -2,7 +2,10 @@
     margin: 0;
     padding: o;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+
 
 .hero-section {
     padding: 30px 300px;
@@ -74,4 +77,95 @@ button {
 
 .header-explanation {
     font-size: 28px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info-content {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 100px;
+    
+}
+
+.info__img-and-caption {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    width:200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-section header {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    color: rgb(9, 136, 9);
+
+}
+
+figure img {
+    border-radius: 10px;
+    border: 3px solid rgb(9, 136, 9);
+}
+
+.background-color-full-width {
+    background-color: rgb(239, 255, 205);
+    margin-bottom: 100px; 
+}
+
+.inspiration-section {
+    padding: 100px 0;
+
+}
+
+.inspiration-quote {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 905px;
+    padding-bottom: 30px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+.cta-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:1300px;
+    height: 150px;
+    margin-bottom: 100px;
+    background-color: rgb(196, 242, 116);
+    border-radius: 10px;
+    color: rgb(9, 136, 9);
+}
+
+.cta-left-part h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.cta-left-part p {
+    font-size: 22px;
+}
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 136, 9);
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
 }
