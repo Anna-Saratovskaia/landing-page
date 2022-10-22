@@ -12,7 +12,10 @@
     background-color:rgb(9, 136, 9);
     color:azure;
 }
-
+.hero-section-width-container {
+    width: 960px;
+     
+}
 nav {
     display: flex;
     justify-content: space-between;
