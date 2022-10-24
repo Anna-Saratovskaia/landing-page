@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -8,14 +8,16 @@
 
 
 .hero-section {
-    padding: 30px 300px;
+    padding: 30px;
     background-color:rgb(9, 136, 9);
     color:azure;
 }
+
 .hero-section-width-container {
-    width: 960px;
-     
+    width: 960px; 
+    margin: 0 auto;    
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -27,7 +29,7 @@ nav ul {
     gap: 26px;
     list-style: none;
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 
@@ -36,11 +38,11 @@ header p {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 h1 span {
-    font-size: 66px;
+    font-size: 50px;
 }
 
 nav span {
@@ -50,22 +52,26 @@ nav span {
 
 .hero-content {
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
-.hero-content__right-part {
-    flex: 1 1 30%;   
+
+.hero-content__right-part img {
+    width: 100%;
 }
 
 .hero-content__left-part {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    gap: 15px;
     justify-content: space-between;
 }
 
 .hero-text {
     font-size: 20px;
 }
+
 
 button {
     width: 140px;
@@ -138,7 +144,6 @@ figure img {
     font-size: 20px;
     font-weight: bold;
     text-align: right;
-    
 }
 
 .cta-section {
